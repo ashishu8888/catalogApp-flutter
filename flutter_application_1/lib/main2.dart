@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
       color: Colors.white,
       themeMode: ThemeMode.light,
       theme: ThemeData(
+          backgroundColor: Colors.white,
           primarySwatch: Colors.blue,
           fontFamily: GoogleFonts.lato().fontFamily),
       darkTheme: ThemeData(brightness: Brightness.dark),
